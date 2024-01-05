@@ -1,0 +1,93 @@
+.body{
+    width: 100%;
+}
+.body .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: rgb(26, 11, 11);
+    background-image: url('https://rakbank.ae/wps/PA_cpf-calculators-po/images/loader.gif');
+    width: 45%;
+    margin-left:450px;
+    padding: 10px;
+    border-radius: 50px;
+   
+}
+
+.body .content .title h1{
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-left: 20px;
+    text-shadow: 2px 1px 1px rgb(8, 8, 8);
+}
+
+.body .content .details{
+   margin-top: 10px;
+   margin-bottom: 10px;
+   background-color: rgb(255, 254, 254);
+   background-image: url('https://images.pexels.com/photos/396547/pexels-photo-396547.jpeg?cs=srgb&dl=pexels-francesco-ungaro-396547.jpg&fm=jpg');
+   margin-left: 100px;
+   padding: 10px;
+   width: 800px;
+   border-radius: 50px;
+}
+.body .content .details .response{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.body .content .details .form{
+    display: flex;
+    flex-direction:column;
+}
+.body .content .details .form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.body .content .details .form .button{
+   margin-top: 30px;
+   display: flex;
+   justify-content: center;
+}
+h5{
+    color: white;
+}
+
+@media (max-width:450px){
+    .body{
+        padding: 20px;
+    }
+    .body .content{
+        padding: 10px;
+        margin-left: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    .body .content .title h1{
+        font-size: 18px;
+    }
+    .body .content .details{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        background-color: white;
+        margin-left: 10px;
+        padding: 5px;
+        border-radius: 50px;
+        width: 500px;
+     }
+     .body .content .details .response .before h5,.body .content .details .response .after h5{
+        font-size: 15px;
+     }
+     .result h3{
+        font-weight: 300;
+     }
+    }
